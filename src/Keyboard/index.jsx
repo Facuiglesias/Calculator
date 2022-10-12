@@ -228,7 +228,8 @@ const Keyboard = ({ outputNums, setOutputNums }) => {
             return setOutputNums(resultado);
           } else if (operation == "√") {
             let resultado = Math.pow(valueA, 1 / outputNums);
-            return setOutputNums(Math.ceil(resultado));
+            // return setOutputNums(Math.ceil(resultado));
+            return setOutputNums(resultado);
           }
         }}
       >
