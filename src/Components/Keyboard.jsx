@@ -151,7 +151,7 @@ const Keyboard = ({ outputNums, setOutputNums }) => {
           printer("-");
         }}
       >
-        ―
+        -
       </button>
       <button
         className="btn btn-secondary col-span-2 text-white font-bold rounded-md text-xl"
