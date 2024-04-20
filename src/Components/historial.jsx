@@ -4,7 +4,7 @@ function Historial() {
   return (
     <div>
       <button className="btn rounded-full ml-4">
-        <img src={historial} />
+        {/* <img src={historial} /> */}
       </button>
     </div>
   );
